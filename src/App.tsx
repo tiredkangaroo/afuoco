@@ -1,7 +1,7 @@
 import "./App.css";
 import { PomodoroView } from "./pomodoro/pomodoro";
 import { SpotifyView } from "./spotify/spotify";
-import { TasksView } from "./tasks/tasks";
+import { TasksView, handleGoogleCallback } from "./tasks/tasks";
 
 function App() {
   return (
